@@ -1,0 +1,30 @@
+.font {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.div {
+  width: 22%;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px #d0d0d0;
+}
+
+.div h2 {
+  margin-bottom: 10%;
+  font-size: 100%;
+  font-weight: 600;
+  color: #5d6164e3;
+}
+
+.div h3 {
+  font-weight: 500;
+}
+
+.div span {
+  margin-left: 95%;
+}

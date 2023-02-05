@@ -1,0 +1,25 @@
+.font {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  border-width: 2px 2px 0px 0px;
+  border-style: solid;
+  border-color: #d0dce7b0;
+}
+
+.font h2 {
+  text-align: left;
+  margin: 8% 4% 0% 0%;
+  font-weight: 550;
+  font-size: 110%;
+  color: #5d6164e3;
+  cursor: default;
+}
+
+.font p {
+  margin: 3% 0%;
+  font-size: 90%;
+  padding-left: 10%;
+  color: #5d6164e3;
+  cursor: pointer;
+}

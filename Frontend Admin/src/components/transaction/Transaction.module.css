@@ -1,0 +1,93 @@
+.font {
+  width: 95%;
+  background-color: white;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans", sans-serif;
+  padding: 3%;
+  border-radius: 5px;
+  box-shadow: 2px 0px 10px #d0d0d0;
+}
+
+.font h2 {
+  font-size: 120%;
+  font-weight: 600;
+  color: #5d6164e3;
+}
+
+.font table {
+  width: 100%;
+  text-align: left;
+  font-size: 70%;
+  border: 1.5px solid #d0d1d1;
+  border-collapse: collapse;
+}
+
+.font table,
+td,
+th {
+  border-bottom: 1.5px solid #d0d1d1;
+  border-collapse: collapse;
+}
+
+.font table thead tr th span {
+  height: 100%;
+  border-left: 1.5px solid #d0d1d1;
+  border-collapse: collapse;
+  padding-left: 2%;
+}
+
+.font td,
+th {
+  padding: 10px 10px;
+}
+
+/* .font table thead tr {
+  background-color: #28a0bb;
+  color: white;
+} */
+
+/* .font table tbody tr:nth-child(odd) {
+  background-color: #e7e7e7ba;
+} */
+
+.status {
+  padding: 5px;
+  border-radius: 5px;
+  color: #9983a359;
+}
+
+.paging {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  width: 99.75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  border: 1.5px solid #d0d1d1;
+}
+
+.paging2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.paging2 p {
+  width: 20px;
+  border: 1px solid #d0d1d1;
+  text-align: center;
+}
+.paging2 button {
+  background-color: white;
+  border: none;
+  font-size: 110%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  font-weight: 800;
+}

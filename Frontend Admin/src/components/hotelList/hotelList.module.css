@@ -1,0 +1,163 @@
+.font {
+  width: 98%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans", sans-serif;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0;
+}
+
+.title h2 {
+  font-size: 120%;
+  font-weight: 600;
+  color: #5d6164e3;
+}
+
+.title button {
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid green;
+  color: green;
+  cursor: pointer;
+}
+
+.title button:hover {
+  border: 2px solid rgb(7, 92, 7);
+  color: rgb(7, 92, 7);
+  font-weight: 700;
+  cursor: pointer;
+}
+.title button:active {
+  border: 2px solid #fc3300;
+  color: #fc3300;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.font table {
+  width: 100%;
+  text-align: left;
+  font-size: 70%;
+  border: 1.5px solid #d0d1d1;
+  border-collapse: collapse;
+}
+
+.font table,
+td,
+th {
+  border-bottom: 1.5px solid #d0d1d1;
+  border-collapse: collapse;
+}
+
+.font table thead tr th span {
+  height: 100%;
+  border-left: 1.5px solid #d0d1d1;
+  border-collapse: collapse;
+  padding-left: 2%;
+}
+
+.font td,
+th {
+  padding: 10px 10px;
+}
+
+/* .font table thead tr {
+  background-color: #28a0bb;
+  color: white;
+} */
+
+/* .font table tbody tr:nth-child(odd) {
+  background-color: #e7e7e7ba;
+} */
+
+.status {
+  padding: 5px;
+  border-radius: 5px;
+  color: #9983a359;
+}
+
+.paging {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  width: 99.75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  border: 1.5px solid #d0d1d1;
+}
+
+.paging2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.paging2 p {
+  width: 20px;
+  border: 1px solid #d0d1d1;
+  text-align: center;
+}
+.paging2 button {
+  background-color: white;
+  border: none;
+  font-size: 110%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  font-weight: 800;
+}
+
+.action {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+
+.edit {
+  background-color: white;
+  border: 2px dotted green;
+  color: green;
+  cursor: pointer;
+}
+
+.edit:hover {
+  border: 2px solid #3c00ff;
+  color: #3c00ff;
+  cursor: pointer;
+}
+.edit:active {
+  border: 2px solid green;
+  color: green;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: white;
+  border: 2px dotted #fc3300;
+  color: #fc3300;
+  cursor: pointer;
+}
+
+.delete:hover {
+  border: 2px solid #3c00ff;
+  color: #3c00ff;
+  cursor: pointer;
+}
+.delete:active {
+  border: 2px solid #fc3300;
+  color: #fc3300;
+  font-weight: 700;
+  cursor: pointer;
+}
